@@ -1,0 +1,61 @@
+# CXR SpatialAgent — Sample Clinical Questions
+# Organised by spatial taxonomy (Section 3.3 of the paper)
+
+# ── Presence / Detection ──────────────────────────────────────────────────────
+Is pleural effusion present in the chest X-ray?
+Is pneumothorax present in the chest X-ray?
+Is consolidation present in the chest X-ray?
+Is cardiomegaly present in the chest X-ray?
+Is pulmonary edema present in the chest X-ray?
+Is an endotracheal tube present in the chest X-ray?
+Is a nasogastric tube present in the chest X-ray?
+
+# ── Spatial Location ──────────────────────────────────────────────────────────
+Where is the consolidation located?
+Where is the mass located?
+Where is the nodule located?
+Where is the atelectasis located?
+
+# ── Laterality ────────────────────────────────────────────────────────────────
+Is the pleural effusion more extensive in the right lung or in the left lung?
+Is the consolidation more extensive in the right lung or in the left lung?
+What is the laterality of the pleural effusion: unilateral or bilateral?
+What is the laterality of the pneumothorax: unilateral or bilateral?
+
+# ── Distribution & Extent ─────────────────────────────────────────────────────
+What is the distribution pattern of the consolidation: localized, focal, diffuse, unilateral, bilateral, central, peripheral, or multilobular?
+What is the distribution pattern of the pulmonary edema: localized, focal, diffuse, unilateral, bilateral, central, peripheral, or multilobular?
+What is the extent and location of the mass: localized, focal, diffuse, central, or peripheral?
+What is the extent and laterality of the cardiomegaly: localized, focal, diffuse, unilateral, or bilateral?
+
+# ── Containment ───────────────────────────────────────────────────────────────
+Is the pleural effusion contained entirely within the lung field without extending beyond the pleural surface?
+Is the mass contained entirely within the lung field without extending beyond the pleural surface?
+Is the consolidation contained entirely within the lung field without extending beyond the pleural surface?
+
+# ── Zone Presence ─────────────────────────────────────────────────────────────
+Is the consolidation located predominantly in the right lower zone of the lung?
+Is the atelectasis located predominantly in the upper zone of the lung?
+Is the consolidation located predominantly in the left lower zone of the lung?
+Is the endotracheal tube present in the upper zone of the lung?
+
+# ── Relative Positioning ──────────────────────────────────────────────────────
+What is the relative position of the consolidation with respect to the hilum?
+What is the relative position of the mass with respect to the carina?
+What is the relative position of the pleural effusion with respect to the diaphragm?
+What is the relative position of the carina with respect to the aortic arch?
+
+# ── Device Localisation ───────────────────────────────────────────────────────
+Where is the tip of the endotracheal tube relative to the carina?
+Where is the tip of the nasogastric tube relative to the diaphragm?
+Where is the tip of the central venous catheter relative to the carina?
+Where is the tip of the endotracheal tube relative to the right main bronchus?
+
+# ── Border & Silhouette ───────────────────────────────────────────────────────
+Does the consolidation involve or obscure the left heart border?
+Does the consolidation involve or obscure the left hemidiaphragm?
+Does the pleural effusion involve or obscure the right hemidiaphragm?
+Does the opacity involve or obscure the right heart border?
+
+# ── Appearance ────────────────────────────────────────────────────────────────
+What is the appearance of the aortic knob?

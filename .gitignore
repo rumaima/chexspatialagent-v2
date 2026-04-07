@@ -1,0 +1,32 @@
+# Model weights (large binary files — download separately)
+model_weights/*.pt
+model_weights/*.pth
+model_weights/*.bin
+model_weights/*.onnx
+
+# Dataset directories
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Outputs
+*.json
+results/
+outputs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

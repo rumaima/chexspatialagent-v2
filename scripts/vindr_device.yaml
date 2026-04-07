@@ -1,0 +1,26 @@
+# YOLOv8 training config — CXR device detection (ETT, NGT, CVC, pacemaker, chest drain)
+# Dataset: MIMIC-CXR device annotations or VinDr-Device
+#
+# Usage:
+#   yolo train data=scripts/vindr_device.yaml model=yolov8x.pt \
+#        epochs=150 imgsz=512 batch=8 name=cxr_devices
+
+path: ./data/cxr_devices
+train: images/train
+val:   images/val
+
+nc: 5
+names:
+  0: endotracheal_tube
+  1: nasogastric_tube
+  2: central_venous_catheter
+  3: pacemaker_lead
+  4: chest_tube
+
+degrees: 5.0
+translate: 0.05
+scale: 0.1
+flipud: 0.0
+fliplr: 0.3
+hsv_v: 0.15
+mosaic: 0.0

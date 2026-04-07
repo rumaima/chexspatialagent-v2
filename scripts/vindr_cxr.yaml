@@ -1,0 +1,39 @@
+# YOLOv8 training config — VinDr-CXR findings detection
+# Dataset: https://physionet.org/content/vindr-cxr/
+#
+# Usage:
+#   yolo train data=scripts/vindr_cxr.yaml model=yolov8x.pt \
+#        epochs=100 imgsz=512 batch=16 name=cxr_findings
+
+path: ./data/vindr_cxr
+train: images/train
+val:   images/val
+test:  images/test
+
+nc: 14
+names:
+  0:  Aortic enlargement
+  1:  Atelectasis
+  2:  Calcification
+  3:  Cardiomegaly
+  4:  Consolidation
+  5:  ILD
+  6:  Infiltration
+  7:  Lung Opacity
+  8:  Nodule/Mass
+  9:  Other lesion
+  10: Pleural effusion
+  11: Pleural thickening
+  12: Pneumothorax
+  13: Pulmonary fibrosis
+
+# CXR-safe augmentation (never flip vertically — apex must stay up)
+degrees: 3.0
+translate: 0.05
+scale: 0.1
+flipud: 0.0
+fliplr: 0.5
+hsv_h: 0.0
+hsv_s: 0.0
+hsv_v: 0.2
+mosaic: 0.0
