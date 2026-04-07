@@ -130,27 +130,27 @@ STEP 4 — JUSTIFY every decision:
 ━━━ OUTPUT FORMAT ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Respond with ONLY valid JSON — no markdown, no preamble:
-{
+{{
   "deconstruction": "breakdown of what the question requires (2-4 sentences)",
   "reasoning": "overall strategy — why these tools in this order (2-3 sentences)",
   "plan": [
-    {
+    {{
       "step": 1,
       "tool_id": "image_quality_assessor",
       "tool_name": "Image Quality Assessor",
-      "args": {},
+      "args": {{}},
       "purpose": "what this step produces for downstream steps",
       "reasoning": "why this specific tool is required at this position"
-    }
+    }}
   ],
   "tools_excluded": [
-    {
+    {{
       "tool_id": "...",
       "tool_name": "...",
       "reason": "why this tool was considered but not included"
-    }
+    }}
   ]
-}"""
+}}"""
 
 _USER_TMPL = "Clinical question: {question}"
 
